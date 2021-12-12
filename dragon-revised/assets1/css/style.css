@@ -1,0 +1,166 @@
+/* Color Theme
+#132866
+#AABFFF
+#2C5AE6
+#0D256E - base
+##2246B3
+*/
+
+/*-----Box Sizing-----*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*-----Utility Styles-----*/
+.container {
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.img-center {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #0D256E;
+  padding: 5px;
+}
+
+/*-----Responsive Images-----*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*-----Global Styles-----*/
+a{
+    color:#026AEA;
+}
+
+html{
+    background-color:#596680;
+}
+
+body{
+    font-family: 'Teko', sans-serif;
+    margin:0;
+}
+
+header.primary{
+    background-color:#0D256E;
+    text-align:center;
+    color:white;
+    position:relative;
+    top:0;
+    padding-bottom:20px;
+}
+
+header.primary h1{
+    margin: 0 auto;
+    display:none;
+}
+
+header.primary img{
+    height:200px;
+    width:300px;
+    margin-top:20px;
+}
+
+header.primary nav ul{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    border-width:5px;
+    border-color:black;
+    background-color:black;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    
+}
+
+header.primary nav li{
+    list-style-type:none;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#0D256E;
+    border-radius:20px;
+}
+
+header.primary nav li a{
+    color:white;
+}
+
+aside{
+    background-color:#2E4B6E; 
+}
+
+aside table tr{
+    background-color:#70A5E6;
+}
+
+aside table tr:nth-child(odd){
+    background-color:#5881B3;
+}
+
+footer a{
+    color:#70A5E6;
+}
+
+#faq h3{
+    background-color:#0D256E;
+    color:white;
+}
+
+#articles{
+    background-color:#0D256E;
+    color:white;
+    padding:20px;
+}
+
+#missions{
+    background-color:#0D256E;
+    color:white;
+    padding:20px;
+}
+
+#missions table tr{
+    background-color:#70A5E6;
+    color:black;
+}
+
+#missions table tr:nth-child(odd){
+    background-color:#5881B3;
+    color:black;
+}
+
+.gallery {
+	background-color: #CCC;
+	width: 730px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	height: 516px;
+	overflow: hidden; 
+	border-radius: 4px;
+}
+.gallery img {
+	margin: 15px;
+	padding-right:20px;
+}
+
+#colophon h6 {
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
